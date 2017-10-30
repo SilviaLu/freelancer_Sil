@@ -191,6 +191,44 @@ button.butt {
     background-color: 
 }
 
+/*codigos de la seccion about*/
+
+.about{
+    background-color: #18bc9c;
+   
+}
+.about1{
+    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 45px;
+    color: white;
+    text-align: center;
+}
+.text-about{
+    font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 40%;
+    text-align: justify;
+
+}
+.text-about1{
+    font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+   
+}
+.column{
+    column-count: 2;
+    column-width: 20%;
+    padding: 0px 150px;
+}
+
 
 /*codigos del formulario*/
 #contac {
@@ -234,44 +272,6 @@ button.butt {
      font-weight:700;
      margin-top:14px;
     }
-
-/*codigos de la seccion about*/
-
-.about{
-    background-color: #18bc9c;
-   
-}
-.about1{
-    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
-    font-size: 45px;
-    color: white;
-    text-align: center;
-}
-.text-about{
-    font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
-    font-size: 20px;
-    text-align: center;
-    font-size: 20px;
-    color: white;
-    margin: 0 auto;
-    padding: 0 auto;
-    width: 40%;
-    text-align: justify;
-
-}
-.text-about1{
-    font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
-    font-size: 20px;
-    text-align: center;
-    font-size: 20px;
-    color: white;
-   
-}
-.column{
-    column-count: 2;
-    column-width: 20%;
-    padding: 0px 150px;
-}
 
  /*codigos de footer*/
  footer {
