@@ -133,7 +133,7 @@ i.fa-star{
    
 }
 .images{
-    outline: 1px solid red;
+   /* outline: 1px solid red;*/
     display: inline-block;
     padding-bottom: 80px; 
 }
@@ -144,30 +144,177 @@ i.fa-star{
     padding: 12px;
     
 }
+#contac {
+text-align: center;
+padding: 70px;
+padding-bottom: 135px;
+
+}
+form {
+ position: relative;
+ text-align: center;
+ margin-bottom: 28px;
+
+
+}
+
+input {
+ width: 60%;
+ border: none;
+ margin-bottom: 21px;
+ padding-bottom: 35px;
+ border-bottom: 1px solid #eee;
+ font-size: 21px;
+}
+
+textarea{
+ width: 60%;
+ border: none;
+ font-size: 21px;
+ border-bottom: 1px solid #eee;
+}
+
+button.butt {
+ position: absolute;
+ left: 240px;
+ border: none;
+ border-radius: 7px;
+ padding: 14px;
+ color: white;
+ background: #18bc9c;
+ font-weight:700;
+ margin-top:14px;
+}
+.buttom{
+    margin: 10px;
+    padding: 5px;
+    background-color: 
+
+}
+
+
+/*codigos del formulario*/
+#contac {
+    text-align: center;
+    padding: 70px;
+    padding-bottom: 135px;
+    
+    }
+    form {
+     position: relative;
+     text-align: center;
+     margin-bottom: 28px;
+    
+    
+    }
+    
+    input {
+     width: 60%;
+     border: none;
+     margin-bottom: 21px;
+     padding-bottom: 35px;
+     border-bottom: 1px solid #eee;
+     font-size: 21px;
+    }
+    
+    textarea{
+     width: 60%;
+     border: none;
+     font-size: 21px;
+     border-bottom: 1px solid #eee;
+    }
+    
+    button.butt {
+     position: absolute;
+     left: 240px;
+     border: none;
+     border-radius: 7px;
+     padding: 14px;
+     color: white;
+     background: #18bc9c;
+     font-weight:700;
+     margin-top:14px;
+    }
+
 /*codigos de la seccion footer*/
 
-.container-about{
+.about{
     background-color: #18bc9c;
-
+   
+}
+.about1{
+    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 45px;
+    color: white;
+    text-align: center;
 }
 .text-about{
     font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
     font-size: 20px;
     text-align: center;
     font-size: 20px;
-    color: red;
+    color: white;
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 40%;
+    text-align: justify;
+
 }
 .text-about1{
     font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
     font-size: 20px;
     text-align: center;
     font-size: 20px;
-    color: red;
+    color: white;
+   
 }
 .column{
     column-count: 2;
-    column-gap: 30px;
-    column-width: 50px;
+    column-width: 20%;
+    padding: 0px 150px;
 }
 
- 
+ /*codigo de footer*/
+ footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align:center;
+    height: 340px;
+   }
+   
+   nav#footer {
+    column-count: 3;
+    column-width: 30%;
+    padding: 60px 142px;
+   }
+   
+   div.foot {
+    height: 140px;
+   }
+   
+   .box-footer {
+    font-size: 28px;
+    padding-bottom: 21px;
+    font-weight: 700;
+   }
+   
+   .text-footer {
+    font-size: 21px;
+   }
+   
+   a.leter {
+    color: #18bc9c;
+    text-decoration: none;
+   }
+   a.leter:hover {
+    text-decoration:underline;
+   }
+   
+   i.icon{
+     font-size: 21px;
+     border-radius: 50px;
+     padding: 7px;
+     border: 1px solid white;
+     height: 25px;
+     width: 25px;
+   }
