@@ -14,7 +14,7 @@
 <body>
     <header>
         <nav class="container">
-            <h2 class="text-uppercase"><a class="nav1" href="">start bootstrap</a></h2>
+            <h2 class="text-uppercase brand"><a class="nav1" href="">start bootstrap</a></h2>
             <ul class="text-uppercase subnav">
                 <li class="nav2"><a class="subnav2" href="">portafolio</a></li>
                 <li class="nav2"><a class="subnav2" href="">about</a></li>
@@ -44,10 +44,16 @@
     </section>
     <section class="container about">
     <h2 class="text-uppercase about1">about</h2>
-    <div class="column" >
-    <h5 class="text-about">Freelancer is a free bootstrap theme create by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScrip as well as optional LESS stylesheets for easy. <br> Whether you´re a student looking to showcase your work, a professional looking to attract cliente, or a graphic artist looking to share your projects, this template is the perfect starting points. </h5>
+    <div class="column-text" >
+        <div  class="column-text1">
+        <div><p>Freelancer is a free bootstrap theme create by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScrip as well as optional LESS stylesheets for easy.</p>
+        </div>
+        <div class="text-about">
+        <p> Whether you´re a student looking to showcase your work, a professional looking to attract cliente, or a graphic artist looking to share your projects, this template is the perfect starting points. </p>
+        </div>
     </div>
-    <button class="butt text-footer" type="button" name="Send">Downland Theme</button> 
+     <!--  no es button es un div con un i fde icon y un a de link -->
+        <button class="butt text-footer" type="button" name="Send">Downland Theme</button> 
     </section>  
     <section id="contac">
             <span class="tit text-uppercase">contact me</span>
@@ -64,29 +70,28 @@
             </form>
           </section>
     <footer>
-            <nav id="footer">
-              <div class="foot">
-                <p class="box-footer text-uppercase">location</p>
-                <p class="text-footer">3481 Melrose Place</p>
-                <p class="text-footer">Beverly Hills, CA 90210</p>
-              </div>
-              <br>
-              <div class="foot">
-                <p class="box-footer text-uppercase">around the web</p>
-                <i class="icon fa fa-facebook" aria-hidden="true"></i>
-                <i class="icon fa fa-google-plus" aria-hidden="true"></i>
-                <i class="icon fa fa-twitter" aria-hidden="true"></i>
-                <i class="icon fa fa-linkedin" aria-hidden="true"></i>
-                <i class="icon fa fa-dribbble" aria-hidden="true"></i>
-              </div>
-              <br>
-              <div class="foot">
-                <p class="box-footer text-uppercase">about freelancer</p>
-                <p class="text-footer">Freelance is a free to use, open source Bootstrap theme created by <a class="leter" href="#">Start Bootstrap.</a></p>
-              </div>
-            </nav>
-            <span class="text-footer">Copyright © Your Website 2017</span>
-          </footer>
+        <div class="foot">
+            <p class="box-footer text-uppercase">location</p>
+            <p class="text-footer">3481 Melrose Place</p>
+            <p class="text-footer">Beverly Hills, CA 90210</p>
+        </div>
+
+        <div class="foot">
+            <p class="box-footer text-uppercase">around the web</p>
+            <i class="icon fa fa-facebook" aria-hidden="true"></i>
+            <i class="icon fa fa-google-plus" aria-hidden="true"></i>
+            <i class="icon fa fa-twitter" aria-hidden="true"></i>
+            <i class="icon fa fa-linkedin" aria-hidden="true"></i>
+            <i class="icon fa fa-dribbble" aria-hidden="true"></i>
+        </div>
+    
+        <div class="foot">
+            <p class="box-footer text-uppercase"> about freelancer</p>
+            <p class="text-footer">Freelance is a free to use, open source Bootstrap theme created by<span><a class="leter" href="#">Start Bootstrap.</a></span></p>
+        </div>
+        
+        <div class="text-footer">Copyright © Your Website 2017</div>
+    </footer>
 
 </body>
 </html>

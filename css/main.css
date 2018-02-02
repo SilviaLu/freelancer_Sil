@@ -2,160 +2,179 @@
  * Estilos de tu proyecto
  */
 
- .text-uppercase{
-    text-transform: uppercase;
- }
- body{
-     box-sizing: border-box;
-     margin: 0px;
-     padding: 0px;
-     /*position: relative;*/
- }
- header{
-    position: relative;
-    width: inherit;
- }
- nav{
-    background-color: #2c3e50;
-     
-}
- h2{
-     display: inline-block;
-     padding: 20px 20px 20px 40px;
-     position: relative;
-     right: 250px;
-        
 
+/* --------------se debe poner estilos a header.shrink----------------- */
+
+section {
+    text-align: center;
 }
-.nav1{
-    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
-    color:white;
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    /*position: relative;*/
+}
+
+header {
+    position: relative;
+    position: fixed;
+    width: inherit;
+    width: 100%;
+}
+
+.shrink {
+    height:
+}
+
+nav {
+    background-color: #2c3e50;
+    /* display: inline-block; */
+}
+
+.brand {
+    display: inline-block;
+}
+
+.nav1 {
+    font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: white;
     text-decoration: none;
     font-weight: 900;
     font-size: 30px;
+    padding: 120px;
 }
 
-.subnav{
-    
-    position: relative; 
+.subnav {
     display: inline;
-    padding: 30px;
-    left: 250px;
-    top:-15px;
     /*outline: 1px solid white; linea guia*/
-  
-   
-    }
+}
 
-.subnav2{
+.subnav2 {
     color: white;
-    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 15px;
     font-weight: 700;
     text-decoration: none;
-    margin-left: 10px;
+    margin-left: 17px;
     font-size: 17px;
     list-style: none;
-    
 }
-.nav2{
-    
-     /*outline: 1px solid white; linea de guia*/
-     display: inline-block;
-     cursor: pointer;
-     text-align: center;
-              
-    }
 
-/* codigo de la 2 da seccion titulo central*/
-.start1{
-    background: lightseagreen;
+.nav2 {
+    /*outline: 1px solid white; linea de guia*/
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+/* codigo de la 2da seccion titulo central*/
+
+.start1 {
+    background: #18bc9c;
     text-align: center;
     border-top: 0px;
 }
 
-.profile{
+.profile {
     text-align: center;
     padding: 100px 0px 0px;
-    
 }
-.text-uppercase.font{
+
+.text-uppercase.font {
     font-family: 'Lato', sans-serif;
 }
-.font.start1{
+
+.font.start1 {
     font-family: 'Lato', sans-serif;
     color: white;
     margin: 20px 0px 45px;
-    
 }
-.font.start1.h1{
+
+.font.start1.h1 {
     font-size: 77px;
     border: 100px;
-}  
-.font.start1.h4{
-    border:30px;
+}
+
+.font.start1.h4 {
+    border: 30px;
     font-size: 25px;
     letter-spacing: 1px;
     padding-top: 20px;
     padding-bottom: 100px;
     border-bottom: 20px;
     margin-bottom: 0px;
-}  
-.icon-start::after{
-    content: "";
-    color: white;
-    width:5px; 
-    height: 3px;
 }
-i.fa-star{
+
+.icon-start::before {
+    content: "";
+    background: #eee;
+    width: 110px;
+    height: 4px;
+    display: inline-block;
+}
+
+.fa.fa-star {
     color: white;
     font-size: 35px;
+    outline: 1px solid red;
+    padding: 5px;
+    /* background: verde color del fondo */
 }
-.icon-start::before{
+
+.icon-start::after {
     content: "";
-    color: white;
-    width:5px; 
-    height: 3px ;
+    background: #eee;
+    width: 110px;
+    height: 4px;
+    display: inline-block;
 }
+
+
 /*codigo de la seccion imagenes*/
-.container{
-    text-align: center;
-}
-.text-uppercase.font.port{
-    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
-    font-size:40px;
+
+.text-uppercase.font.port {
+    font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 40px;
     text-align: center;
     color: #212529;
     font-weight: 900;
     margin-top: 95px;
     padding: 0px;
     text-align: center;
-   
 }
-.images{
-   /* outline: 1px solid red;*/
+
+.images {
+    /* outline: 1px solid red;*/
     display: inline-block;
-    padding-bottom: 80px; 
+    padding-bottom: 80px;
 }
-.ima{
+
+.ima {
     /*display: inline-block;*/
     width: 350px;
     height: 250px;
     padding: 12px;
-    
 }
+
+
 /* codigos de formularios */
+
 #contac {
     text-align: center;
     padding: 70px;
     padding-bottom: 135px;
-
 }
+
 form {
     position: relative;
     text-align: center;
     margin-bottom: 28px;
-
 }
 
 input {
@@ -167,8 +186,8 @@ input {
     font-size: 21px;
 }
 
-textarea{
-     width: 60%;
+textarea {
+    width: 60%;
     border: none;
     font-size: 21px;
     border-bottom: 1px solid #eee;
@@ -182,138 +201,141 @@ button.butt {
     padding: 14px;
     color: white;
     background: #18bc9c;
-    font-weight:700;
-    margin-top:14px;
+    font-weight: 700;
+    margin-top: 14px;
 }
-.buttom{
+
+.buttom {
     margin: 10px;
     padding: 5px;
-    background-color: 
 }
+
 
 /*codigos de la seccion about*/
 
-.about{
+.about {
     background-color: #18bc9c;
-   
+    padding: 30px;
 }
-.about1{
-    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+
+.column-text {
+    outline: 1px solid red;
+    text-align: center;
+    width: 70%;
+}
+
+.column-text1 {
+    column-count: 2;
+    column-width: 20%;
+    padding: 0px 100px;
+}
+
+.about1 {
+    font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 45px;
     color: white;
     text-align: center;
 }
-.text-about{
-    font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
-    font-size: 20px;
-    text-align: center;
-    font-size: 20px;
-    color: white;
-    margin: 0 auto;
-    padding: 0 auto;
-    width: 40%;
-    text-align: justify;
 
-}
-.text-about1{
-    font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
-    font-size: 20px;
+.text-about {
+    font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-align: center;
-    font-size: 20px;
+    text-align: justify;
+    font-size: 18px;
     color: white;
-   
-}
-.column{
-    column-count: 2;
-    column-width: 20%;
-    padding: 0px 150px;
+    width: 61%;
+    display: inline-block;
+    right: 10px;
 }
 
 
 /*codigos del formulario*/
+
 #contac {
     text-align: center;
     padding: 70px;
     padding-bottom: 135px;
-    
-    }
+}
+
 form {
-     position: relative;
-     text-align: center;
-     margin-bottom: 28px;
-    
-    
-    }
-    
+    position: relative;
+    text-align: center;
+    margin-bottom: 28px;
+}
+
 input {
-     width: 60%;
-     border: none;
-     margin-bottom: 21px;
-     padding-bottom: 35px;
-     border-bottom: 1px solid #eee;
-     font-size: 21px;
-    }
-    
-textarea{
-     width: 60%;
-     border: none;
-     font-size: 21px;
-     border-bottom: 1px solid #eee;
-    }
-    
+    width: 60%;
+    border: none;
+    margin-bottom: 21px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #eee;
+    font-size: 21px;
+}
+
+textarea {
+    width: 60%;
+    border: none;
+    font-size: 21px;
+    border-bottom: 1px solid #eee;
+}
+
 button.butt {
     position: absolute;
-     left: 240px;
-     border: none;
-     border-radius: 7px;
-     padding: 14px;
-     color: white;
-     background: #18bc9c;
-     font-weight:700;
-     margin-top:14px;
-    }
+    left: 240px;
+    border: none;
+    border-radius: 7px;
+    padding: 14px;
+    color: white;
+    background: #18bc9c;
+    font-weight: 700;
+    margin-top: 14px;
+}
 
- /*codigos de footer*/
- footer {
+
+/*codigos de footer*/
+
+footer {
     background-color: #2c3e50;
     color: white;
-    text-align:center;
+    text-align: center;
     height: 340px;
-   }
-   
+}
+
 nav#footer {
     column-count: 3;
     column-width: 30%;
     padding: 60px 142px;
-   }
-   
+}
+
 div.foot {
-    height: 140px;
-   }
-   
+    color: red;
+    height: 120px;
+}
+
 .box-footer {
     font-size: 28px;
     padding-bottom: 21px;
     font-weight: 700;
-   }
-   
+}
+
 .text-footer {
     font-size: 21px;
-   }
-   
+}
+
 a.leter {
     color: #18bc9c;
     text-decoration: none;
-   }
+}
+
 a.leter:hover {
-    text-decoration:underline;
-   }
-   
-i.icon{
-     font-size: 21px;
-     border-radius: 50px;
-     padding: 7px;
-     border: 1px solid white;
-     height: 25px;
-     width: 25px;
-   }
+    text-decoration: underline;
+}
+
+i.icon {
+    font-size: 21px;
+    border-radius: 50px;
+    padding: 7px;
+    border: 1px solid white;
+    height: 25px;
+    width: 25px;
+}
