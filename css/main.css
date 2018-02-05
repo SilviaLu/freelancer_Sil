@@ -1,9 +1,10 @@
-/*
- * Estilos de tu proyecto
- */
+/* ------helpers------ */
 
-
-/* --------------se debe poner estilos a header.shrink----------------- */
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
 
 section {
     text-align: center;
@@ -13,45 +14,46 @@ section {
     text-transform: uppercase;
 }
 
-body {
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-    /*position: relative;*/
-}
+
+/*1ra seccion header-nav*/
 
 header {
-    position: relative;
     position: fixed;
-    width: inherit;
     width: 100%;
-}
-
-.shrink {
-    height:
-}
-
-nav {
+    height: 80px;
     background-color: #2c3e50;
-    /* display: inline-block; */
+    display: inline-block;
+    padding-top: 0;
 }
 
-.brand {
+.nav {
+    background-color: #2c3e50;
     display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.text-nav {
+    display: inline-block;
+}
+
+.subnav {
+    padding-right: 10px;
+}
+
+.option-subnav {
+    display: inline-block;
+    padding-left: 550px;
+    letter-spacing: 1px;
 }
 
 .nav1 {
     font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: white;
     text-decoration: none;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 30px;
-    padding: 120px;
-}
-
-.subnav {
-    display: inline;
-    /*outline: 1px solid white; linea guia*/
+    padding-left: 60px;
 }
 
 .subnav2 {
@@ -66,14 +68,13 @@ nav {
 }
 
 .nav2 {
-    /*outline: 1px solid white; linea de guia*/
     display: inline-block;
     cursor: pointer;
     text-align: center;
 }
 
 
-/* codigo de la 2da seccion titulo central*/
+/* 2da seccion titulo central*/
 
 .start1 {
     background: #18bc9c;
@@ -83,7 +84,7 @@ nav {
 
 .profile {
     text-align: center;
-    padding: 100px 0px 0px;
+    padding: 200px 0px 0px;
 }
 
 .text-uppercase.font {
@@ -94,9 +95,6 @@ nav {
     font-family: 'Lato', sans-serif;
     color: white;
     margin: 20px 0px 45px;
-}
-
-.font.start1.h1 {
     font-size: 77px;
     border: 100px;
 }
@@ -122,9 +120,9 @@ nav {
 .fa.fa-star {
     color: white;
     font-size: 35px;
-    outline: 1px solid red;
     padding: 5px;
-    /* background: verde color del fondo */
+    /* position: relative;
+    top: 10px; */
 }
 
 .icon-start::after {
@@ -136,7 +134,7 @@ nav {
 }
 
 
-/*codigo de la seccion imagenes*/
+/*3era seccion imagenes*/
 
 .text-uppercase.font.port {
     font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -150,64 +148,14 @@ nav {
 }
 
 .images {
-    /* outline: 1px solid red;*/
     display: inline-block;
     padding-bottom: 80px;
 }
 
 .ima {
-    /*display: inline-block;*/
     width: 350px;
     height: 250px;
     padding: 12px;
-}
-
-
-/* codigos de formularios */
-
-#contac {
-    text-align: center;
-    padding: 70px;
-    padding-bottom: 135px;
-}
-
-form {
-    position: relative;
-    text-align: center;
-    margin-bottom: 28px;
-}
-
-input {
-    width: 60%;
-    border: none;
-    margin-bottom: 21px;
-    padding-bottom: 35px;
-    border-bottom: 1px solid #eee;
-    font-size: 21px;
-}
-
-textarea {
-    width: 60%;
-    border: none;
-    font-size: 21px;
-    border-bottom: 1px solid #eee;
-}
-
-button.butt {
-    position: absolute;
-    left: 240px;
-    border: none;
-    border-radius: 7px;
-    padding: 14px;
-    color: white;
-    background: #18bc9c;
-    font-weight: 700;
-    margin-top: 14px;
-}
-
-.buttom {
-    margin: 10px;
-    padding: 5px;
 }
 
 
@@ -216,18 +164,7 @@ button.butt {
 .about {
     background-color: #18bc9c;
     padding: 30px;
-}
-
-.column-text {
-    outline: 1px solid red;
-    text-align: center;
-    width: 70%;
-}
-
-.column-text1 {
-    column-count: 2;
-    column-width: 20%;
-    padding: 0px 100px;
+    height: 510px;
 }
 
 .about1 {
@@ -235,21 +172,62 @@ button.butt {
     font-size: 45px;
     color: white;
     text-align: center;
+    padding: 0;
+    margin-bottom: 6px;
+}
+
+.icon-start::before {
+    content: "";
+    background: #eee;
+    width: 110px;
+    height: 4px;
+    display: inline-block;
+}
+
+.fa.fa-star {
+    color: white;
+    font-size: 35px;
+    padding: 5px;
+    /* position: relative;
+    top: 10px; */
+}
+
+.icon-start::after {
+    content: "";
+    background: #eee;
+    width: 110px;
+    height: 4px;
+    display: inline-block;
+}
+
+.box-text {
+    outline: 1px solid red;
+    text-align: center;
+    float: inherit;
+    top: 50px;
+    left: 100px;
+    width: 90%;
+    height: 300px;
+}
+
+.box-text1 {
+    column-count: 2;
+    column-width: 20%;
+    padding: 0px 100px;
+    display: inline-block;
+    outline: 2px solid blueviolet;
 }
 
 .text-about {
     font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    text-align: center;
-    text-align: justify;
-    font-size: 18px;
+    font-size: 22px;
     color: white;
-    width: 61%;
+    width: 80%;
     display: inline-block;
-    right: 10px;
 }
 
 
-/*codigos del formulario*/
+/*seccion del formulario*/
 
 #contac {
     text-align: center;
@@ -339,3 +317,52 @@ i.icon {
     height: 25px;
     width: 25px;
 }
+
+
+/* 4ta seccion formularios */
+
+
+/* #contac {
+    text-align: center;
+    padding: 70px;
+    padding-bottom: 135px;
+}
+
+form {
+    position: relative;
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+input {
+    width: 60%;
+    border: none;
+    margin-bottom: 21px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #eee;
+    font-size: 21px;
+}
+
+textarea {
+    width: 60%;
+    border: none;
+    font-size: 21px;
+    border-bottom: 1px solid #eee;
+}
+
+button.butt {
+    position: absolute;
+    left: 240px;
+    border: none;
+    border-radius: 7px;
+    padding: 14px;
+    color: white;
+    background: #18bc9c;
+    font-weight: 700;
+    margin-top: 14px;
+}
+
+.buttom {
+    margin: 10px;
+    padding: 5px;
+} */
